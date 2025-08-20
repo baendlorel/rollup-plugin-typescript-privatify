@@ -1,21 +1,21 @@
 {
-	"name": "n-base-integer",
+	"name": "rollup-plugin-typescript-privatify",
 	"version": "0.0.1",
 	"author": {
 		"name": "KasukabeTsumugi",
 		"email": "futami16237@gmail.com"
 	},
-	"description": "Arbitrary-base integer with custom charset, supporting addition, subtraction, multiplication, comparison, and common base conversion utilities.",
+	"description": "Convert private field 'a' to '#a', make it really private. Cooperate with babel to make it truely private.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"files": [
 		"dist"
 	],
 	"type": "module",
-	"homepage": "https://github.com/baendlorel/n-base-integer#readme",
+	"homepage": "https://github.com/baendlorel/rollup-plugin-typescript-privatify#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/baendlorel/n-base-integer"
+		"url": "https://github.com/baendlorel/rollup-plugin-typescript-privatify"
 	},
 	"keywords": [
 		"arbitrary base",
