@@ -6,6 +6,7 @@
 		"email": "futami16237@gmail.com"
 	},
 	"description": "Convert private field 'a' to '#a', make it really private. Cooperate with babel to make it truely private.",
+	"description_zh": "把private关键词修饰的类元素转化为ES2022的真实私有元素。配合babel的降级可以提升兼容性",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"files": [
